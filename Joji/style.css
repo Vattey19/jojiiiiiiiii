@@ -1,0 +1,254 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metal Mania', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: grey;
+}
+
+.banner{
+    /* padding: 15px; */
+    height: 400px;
+    background-image: url(./imgupscaler-enhanced.jpg);
+     background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.album1 {
+    background-image: url("./Gemini_Generated_Image_iyu492iyu492iyu4.jpg");
+}
+
+.album2 {
+    background-image: url("./SMITHEREENS.jpg");
+}
+
+.album3{
+    background-image: url("./Unknown-4.jpg");
+}
+
+
+
+.top {
+    padding: 10px;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bottom {
+    padding: 10px;
+    /* background-color: blue; */
+    height: 150px;
+    color: white;
+}
+
+.bottom h4{
+    font-size: 50px;
+    color: rgb(120, 11, 11);
+    text-shadow: 5px 5px 2px rgb(235, 84, 84);
+}
+
+.bottom h4.titlebottom{
+    color: rgb(59, 222, 222);
+}
+
+.bottom h4.classbottom{
+    color: rgb(91, 72, 57);
+}
+
+
+.nav{ 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 30px;
+}
+
+
+
+.nav a{
+    padding: 5px;
+    text-decoration: none ;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.nav a:hover {
+    color: rgb(117, 9, 9);
+    transform: scale(1.9);
+}
+
+
+
+#Intro img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#Intro{
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+    width: 500px;
+    margin: 15px auto ;
+
+
+}
+
+#Intro h4{
+   color: rgb(79, 0, 0);
+}
+
+#Album{
+    padding: 15px;
+}
+
+.albumcontainer{
+    padding: 15px;
+    /* background-color: rgb(70, 3, 3); */
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album{
+    padding: 15px;
+    /* background-color: white; */
+    text-align: center;
+    width: 200px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+}
+
+.album:hover{
+    transform: scale(1.2);
+}
+
+.album img{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.album a{
+    color: rgb(131, 5, 5);
+    text-decoration: none;
+
+}
+
+.album a:hover{
+    text-decoration: underline;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+#Tickets img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.ticketcard {
+    margin: 30px;
+    color: rgb(210, 4, 4);
+    text-align: center;
+    padding: 15px;
+    border-top: 0.5px solid rgb(187, 186, 186);
+}
+
+.ticketcard button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+.ticketcard:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.song-card{
+    /* padding: 15px; */
+    /* background-color: antiquewhite; */
+    width: 400px;
+    height: 120px;
+
+    display: flex;
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.song-card:hover{
+    transform: scale(1.2);
+}
+
+.song-image{
+    /* padding: 15px; */
+    width: 40%;
+}
+
+.song-info{
+    padding: 15px;
+    /* background-color: blueviolet; */
+    width: 60%;
+}
+
+.song-image img{
+    width: 150px;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+
+    
+}
+
+.songcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+.song-image img {
+    /* border: 1px solid; */
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+
+}
